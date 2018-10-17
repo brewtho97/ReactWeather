@@ -6,7 +6,7 @@ const About = () => {
         <div>
             <h2 className="text-center">About</h2>
             <p>
-                This is a weather application made using <a href="https://reactjs.org/">react</a> and the <a href="https://openweathermap.org/api">OpenWeather API</a>.
+                This is a weather application made using <a href="https://reactjs.org/">React</a> and the <a href="https://openweathermap.org/api">OpenWeather API</a>.
                 This app is made up of many different components and the temperature shown is in degrees celsius.
             </p>
         </div>
