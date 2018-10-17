@@ -34,7 +34,7 @@ const Weather = React.createClass({
     },
 
     render: function() {
-        let {isLoading, location, temp, errorMessage} = this.state;
+        const {isLoading, location, temp, errorMessage} = this.state;
 
         function renderMessage() {
             if (isLoading) {
@@ -48,7 +48,7 @@ const Weather = React.createClass({
         function renderError() {
             if (typeof errorMessage === 'string') {
                 return (
-                    <ErrorModal/>
+                    <ErrorModal message={errorMessage}/>
                 );
             }
         }
