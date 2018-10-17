@@ -16,7 +16,6 @@ app.use(function(request, response, next) {
 
 app.use(express.static('public'));
 
-
 app.listen(port, function() {
 	console.log(`Server started on port ${port}`);
 });
